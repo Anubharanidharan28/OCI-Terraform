@@ -1,0 +1,198 @@
+{
+  "igw_display_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "test_igw"
+  },
+  "internet_gateway_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "ocid1.internetgateway.oc1.ap-mumbai-1.aaaaaaaadcdjoofzaojzwd3jh4utubwlenlvk7ftaotqizxsjrdur4c44z7a"
+  },
+  "lb_backend_set_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "application_backend_set"
+  },
+  "lb_display_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "load_balancer"
+  },
+  "lb_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "ocid1.loadbalancer.oc1.ap-mumbai-1.aaaaaaaa7hk7tibsdywjh2lmhwa6pf7d2oe7prxh7srcn7blepvzpytk3vcq"
+  },
+  "lb_ip_addresses": {
+    "sensitive": false,
+    "type": [
+      "list",
+      "string"
+    ],
+    "value": [
+      "140.245.28.6"
+    ]
+  },
+  "lb_listener_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "https-listener"
+  },
+  "nat_gateway_display_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "test_nat_gw"
+  },
+  "nat_gateway_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "ocid1.natgateway.oc1.ap-mumbai-1.aaaaaaaanpuxgvqijzolhbtnk6qhv47sswdxthlvgxr4gvwebdmhsyzbfmba"
+  },
+  "private_route_table_display_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "test_pri_rt"
+  },
+  "private_route_table_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaacsgxmpe4bhizqbwpfya6guje54j3j5zryxk4u6b7rw3xdq5m3g2a"
+  },
+  "private_subnet_display_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "test_pri_sub1"
+  },
+  "private_subnet_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaao42isbwvdjbjl23mk4ogx2gblci5ya5g4nwc2eincxulgr6lh7pq"
+  },
+  "private_vm_ids": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "ocid1.instance.oc1.ap-mumbai-1.anrg6ljrwn3jegqccnig5maa5utlcm64m5lnq7d3hxot3irumsdtmaynql2q",
+      "ocid1.instance.oc1.ap-mumbai-1.anrg6ljrwn3jegqcsenu77pfzavdpuufhnnxyfmwb5ty4t72ow72feup6xnq",
+      "ocid1.instance.oc1.ap-mumbai-1.anrg6ljrwn3jegqckwawt4pwvuainj5qnwmhqv2tpob5vpbo3xjuqtdzw4la"
+    ]
+  },
+  "private_vm_names": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "test_private_vm_1",
+      "test_private_vm_2",
+      "test_private_vm_3"
+    ]
+  },
+  "private_vm_private_ips": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "10.0.0.95",
+      "10.0.0.87",
+      "10.0.0.81"
+    ]
+  },
+  "public_route_table_display_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "test_pub_rt"
+  },
+  "public_route_table_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "ocid1.routetable.oc1.ap-mumbai-1.aaaaaaaaaywmiwgyonxtaffabsetz2fow4aongxxjbantbfgohczbdjnu3fq"
+  },
+  "public_subnet_display_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "test_pub_sub1"
+  },
+  "public_subnet_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaamduub2uuupuskb65aqya4uschitlrbnc6r27rfgtv7lxjzdgrzaq"
+  },
+  "public_vm_ids": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string"
+      ]
+    ],
+    "value": [
+      "ocid1.instance.oc1.ap-mumbai-1.anrg6ljrwn3jegqcjdffzsyzje7qxxsyt7vcx5ftcz35pqwztrjbozuxzl2a"
+    ]
+  },
+  "public_vm_names": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string"
+      ]
+    ],
+    "value": [
+      "public_jump_server"
+    ]
+  },
+  "public_vm_private_ips": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string"
+      ]
+    ],
+    "value": [
+      "10.0.0.56"
+    ]
+  },
+  "public_vm_public_ips": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string"
+      ]
+    ],
+    "value": [
+      "161.118.173.27"
+    ]
+  },
+  "vcn_display_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "test_VCN"
+  },
+  "vcn_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "ocid1.vcn.oc1.ap-mumbai-1.amaaaaaawn3jegqaicdnjui7lz56ojehvehnwbnsa4qpu7wlkdmpw6zmmq2q"
+  }
+}
