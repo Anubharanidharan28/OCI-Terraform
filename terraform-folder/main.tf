@@ -18,7 +18,7 @@ locals {
     Project     = ""
     Region      = ""
     Department  = "DevOps"
-    Author      = "Anubharanidharan M and Abhilash Jetti"
+    Author      = "Anubharanidharan M"
     UpdatedAt   = local.formatted_time
     ManagedBy   = "Terraform"
   }
